@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +12,7 @@
     <h1>Produtos</h1>
 
     <form action="/cadastrar-produto" method="POST">
+        @csrf
         <label for="txt1">Nome:</label>
             <input id="txt1" type="text" name="nome">
             <br><br>
